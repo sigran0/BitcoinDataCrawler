@@ -1,0 +1,21 @@
+{
+  "name": "bitdoin-data-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "clear && nodemon app.js --no-warnings"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cli-spinner": "^0.2.7",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.7",
+    "node-rest-client": "^3.1.0",
+    "request": "^2.83.0"
+  }
+}
